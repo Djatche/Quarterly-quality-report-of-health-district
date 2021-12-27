@@ -39,7 +39,7 @@ Ce ranking est représenté par un graphique en barre avec les formations sanita
 
 - Quelles sont les limites des données (qualité) en terme de données manquantes et de données aberrantes.
 
-- quels sont les scores de chaque indicateurs par catégorie et par FOSA. Seules les catégories du groupe mère-enfant (CPN, Maternité, Vaccination, Planification familiale).
+- Quels sont les scores de chaque indicateur par catégorie (en détail) et par FOSA. Seules les catégories du groupe mère-enfant (CPN, Maternité, Vaccination, Planification familiale).  
 
 
 ### Les librairies utlisées.
@@ -50,17 +50,17 @@ Seaborn
 
 ### Les fichiers disponibles dans ce dépôt      
 
-- data/: données extraite de la plateforme dhis2 du projet pbf sous forme de fichier csv **'score_qualite_T2_2021.csv'**
+- data/: données extraite de la plateforme dhis2 du projet pbf sous forme de fichier csv **'score_qualite_T2_2021.csv'**    
 
-- data_output: données sous forme de tableau représentant les scores en 2021 pour chaque catégorie (3 colonnes pour chaque trimestre, une colonne pour la moyenne des 3 trimestres ainsi que la variation de score entre T2 et T3, en ligne chaque formation sanitaire).**'cpn.xlsx'** ou **'cpn_2  .xlsx'**
+- data_output: données sous forme de tableau représentant les scores en 2021 pour chaque catégorie (3 colonnes pour chaque trimestre, une colonne pour la moyenne des 3 trimestres ainsi que la variation de score entre T2 et T3, en ligne chaque formation sanitaire).**'cpn.xlsx'** ou **'cpn_2.xlsx'**       
 
-- documentation/: **'Grille_PMA_qualite_PBF.pdf'** et **'Rapport_qualite_final_Q3_2021_DS_YOKO'** respectivement fiche de collecte de données sous forme de check list et le rapport d'évaluation qualité.        
+- documentation/: **'Grille_PMA_qualite_PBF.pdf'** et **'Rapport_qualite_final_Q3_2021_DS_YOKO'** respectivement fiche de collecte de données sous forme de check list et le rapport d'évaluation qualité.              
 
 - images/:
 
     - Performance_evolution/:
-    **'business_plan.png'** fichier image du graphique représentant l'évolution du score business plan trimestre après trimestre pour 2021. Toutes les 17 formations sanitaires sont représentées dans le graphique.
-    **'cpn_details_2.png'** fichier image du score pour chaque indicateur de la catégorie cpn par exemple d'où le terme détail. Toutes les FOSA sont représentées. Un graphique par indicateur.
+    **'business_plan.png'** fichier image du graphique représentant l'évolution du score business plan trimestre après trimestre pour 2021. Toutes les 17 formations sanitaires sont représentées dans le graphique.                 
+    **'cpn_details_2.png'** fichier image du score pour chaque indicateur de la catégorie cpn par exemple d'où le terme détail. Toutes les FOSA sont représentées. Un graphique par indicateur.          
 
     - Ranking/:
     **'ranking_business_plan'** fichier image du diagramme en barre de performances (scores) de la catégorie "business plan". Les formations sanitaires sont classées dans le graphique par ordre décroissant. Du plus performant au moins. A noter que le score maximal de la catégorie et le score moyen du district pour cette catégorie ont été représenté par une couleur différente dans ce diagramme en barre.
