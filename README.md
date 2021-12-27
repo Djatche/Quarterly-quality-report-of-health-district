@@ -56,13 +56,13 @@ Seaborn
 
 - documentation/: **'Grille_PMA_qualite_PBF.pdf'** et **'Rapport_qualite_final_Q3_2021_DS_YOKO'** respectivement fiche de collecte de données sous forme de check list et le rapport d'évaluation qualité.              
 
-- images/:
+- images/:   
 
-    - Performance_evolution/:
+    - Performance_evolution/:         
     **'business_plan.png'** fichier image du graphique représentant l'évolution du score business plan trimestre après trimestre pour 2021. Toutes les 17 formations sanitaires sont représentées dans le graphique.                 
     **'cpn_details_2.png'** fichier image du score pour chaque indicateur de la catégorie cpn par exemple d'où le terme détail. Toutes les FOSA sont représentées. Un graphique par indicateur.          
 
-    - Ranking/:
+    - Ranking/:      
     **'ranking_business_plan'** fichier image du diagramme en barre de performances (scores) de la catégorie "business plan". Les formations sanitaires sont classées dans le graphique par ordre décroissant. Du plus performant au moins. A noter que le score maximal de la catégorie et le score moyen du district pour cette catégorie ont été représenté par une couleur différente dans ce diagramme en barre.
 
 - **'pbf_dict_columns.py'**: fichier python qui contient un dictionnaire avec comme clés les noms actuels des colonnes (indicateurs) et comme valeurs les noms plus courts des colonnes désirés.
