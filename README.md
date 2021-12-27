@@ -50,7 +50,7 @@ Seaborn
 
 ### Les fichiers disponibles dans ce dépôt      
 
-- data/: données extraite de la plateforme dhis2 du projet pbf sous forme de fichier csv **'score_qualite_T2_2021.csv'**    
+- data/: données extraite de la plateforme dhis2 du projet pbf sous forme de fichier csv **'notes_pbf_T3_2021_DS_YOKO.csv'**    
 
 - data_output: données sous forme de tableau représentant les scores en 2021 pour chaque catégorie (3 colonnes pour chaque trimestre, une colonne pour la moyenne des 3 trimestres ainsi que la variation de score entre T2 et T3, en ligne chaque formation sanitaire).**'cpn.xlsx'** ou **'cpn_2.xlsx'**       
 
